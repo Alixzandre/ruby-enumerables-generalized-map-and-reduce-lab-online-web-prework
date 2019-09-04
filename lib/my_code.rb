@@ -21,5 +21,5 @@ def reduce(source_array,sv=0)
     new.push(yield(source_array[i]))
     i += 1
   end
-  new
+  sum
 end
