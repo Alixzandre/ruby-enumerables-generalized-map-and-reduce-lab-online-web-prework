@@ -14,6 +14,7 @@ def reduce(source_array,sv=0)
     sum = sv
     i = 0
   else
-    sum = 
+    sum = source_array[i]
+    i = 1
 
 end
