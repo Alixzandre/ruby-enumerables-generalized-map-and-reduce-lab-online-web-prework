@@ -17,5 +17,9 @@ def reduce(source_array,sv=0)
     sum = source_array[i]
     i = 1
   end
-  
+  while i < source_array.length do
+    new.push(yield(source_array[i]))
+    i += 1
+  end
+  new
 end
