@@ -9,7 +9,7 @@ def map(source_array)
   
 end
  
-def reduce(source_array,sv=0)
+def reduce(source_array,sv=nil)
   if sv
     sum = sv
     i = 0
