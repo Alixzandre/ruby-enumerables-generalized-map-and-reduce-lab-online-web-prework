@@ -12,5 +12,7 @@ end
 def reduce(source_array,sv=0)
   if sv
     sum = sv
+    i = 0
     
+
 end
